@@ -1,0 +1,16 @@
+{
+  "name": "plaid-sandbox-tx-repro",
+  "type": "module",
+  "scripts": {
+    "main": "dotenv -e .env tsx main.ts"
+  },
+  "dependencies": {
+    "plaid": "^21.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "dotenv-cli": "^7.3.0",
+    "typescript": "^5.4.2",
+    "tsx": "^4.7.1"
+  }
+}
